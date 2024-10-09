@@ -6,3 +6,42 @@ body{
 h1, h2{
     font-family: 'Raleway', sans-serif;
 }
+
+.container{
+    width:100%;	
+    margin:auto;
+    max-width: 1200px;
+    min-width: 600px;
+    border:#adc6f6 solid 5px;
+    padding: 10px;
+}
+
+
+nav ul{
+    padding-left:20;
+    list-style:none;	
+}
+
+/* navigation bar in a row */
+nav ul li{	
+    display:inline;
+    padding-left:10px;
+    padding-right:10px;
+    border-left:1px solid #c4cee2;
+}
+nav li:first-child{
+    border-left:none;	
+}
+
+
+header{
+    background-color: #9ebaef;	
+    border-radius: 8px;
+}
+nav li a{
+    text-decoration: none;	
+    color: #fff;	
+}
+nav li a:hover{
+    color: #135ae9;	
+}
